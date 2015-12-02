@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCFEFD121C0ED53600EF50CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFEFD111C0ED53600EF50CE /* main.m */; };
+		CCFEFD151C0ED53600EF50CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFEFD141C0ED53600EF50CE /* AppDelegate.m */; };
+		CCFEFD181C0ED53600EF50CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFEFD171C0ED53600EF50CE /* ViewController.m */; };
+		CCFEFD1B1C0ED53600EF50CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCFEFD191C0ED53600EF50CE /* Main.storyboard */; };
+		CCFEFD1D1C0ED53600EF50CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCFEFD1C1C0ED53600EF50CE /* Images.xcassets */; };
+		CCFEFD201C0ED53600EF50CE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCFEFD1E1C0ED53600EF50CE /* LaunchScreen.xib */; };
+		CCFEFD2C1C0ED53700EF50CE /* _1_TabieViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFEFD2B1C0ED53700EF50CE /* _1_TabieViewDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCFEFD261C0ED53700EF50CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCFEFD041C0ED53600EF50CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCFEFD0B1C0ED53600EF50CE;
+			remoteInfo = "01-TabieViewDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCFEFD0C1C0ED53600EF50CE /* 01-TabieViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-TabieViewDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCFEFD101C0ED53600EF50CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCFEFD111C0ED53600EF50CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCFEFD131C0ED53600EF50CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCFEFD141C0ED53600EF50CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCFEFD161C0ED53600EF50CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CCFEFD171C0ED53600EF50CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCFEFD1A1C0ED53600EF50CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCFEFD1C1C0ED53600EF50CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCFEFD1F1C0ED53600EF50CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CCFEFD251C0ED53700EF50CE /* 01-TabieViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-TabieViewDemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCFEFD2A1C0ED53700EF50CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCFEFD2B1C0ED53700EF50CE /* _1_TabieViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1_TabieViewDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCFEFD091C0ED53600EF50CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFEFD221C0ED53700EF50CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCFEFD031C0ED53600EF50CE = {
+			isa = PBXGroup;
+			children = (
+				CCFEFD0E1C0ED53600EF50CE /* 01-TabieViewDemo */,
+				CCFEFD281C0ED53700EF50CE /* 01-TabieViewDemoTests */,
+				CCFEFD0D1C0ED53600EF50CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCFEFD0D1C0ED53600EF50CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCFEFD0C1C0ED53600EF50CE /* 01-TabieViewDemo.app */,
+				CCFEFD251C0ED53700EF50CE /* 01-TabieViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCFEFD0E1C0ED53600EF50CE /* 01-TabieViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CCFEFD131C0ED53600EF50CE /* AppDelegate.h */,
+				CCFEFD141C0ED53600EF50CE /* AppDelegate.m */,
+				CCFEFD161C0ED53600EF50CE /* ViewController.h */,
+				CCFEFD171C0ED53600EF50CE /* ViewController.m */,
+				CCFEFD191C0ED53600EF50CE /* Main.storyboard */,
+				CCFEFD1C1C0ED53600EF50CE /* Images.xcassets */,
+				CCFEFD1E1C0ED53600EF50CE /* LaunchScreen.xib */,
+				CCFEFD0F1C0ED53600EF50CE /* Supporting Files */,
+			);
+			path = "01-TabieViewDemo";
+			sourceTree = "<group>";
+		};
+		CCFEFD0F1C0ED53600EF50CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCFEFD101C0ED53600EF50CE /* Info.plist */,
+				CCFEFD111C0ED53600EF50CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCFEFD281C0ED53700EF50CE /* 01-TabieViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCFEFD2B1C0ED53700EF50CE /* _1_TabieViewDemoTests.m */,
+				CCFEFD291C0ED53700EF50CE /* Supporting Files */,
+			);
+			path = "01-TabieViewDemoTests";
+			sourceTree = "<group>";
+		};
+		CCFEFD291C0ED53700EF50CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCFEFD2A1C0ED53700EF50CE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCFEFD0B1C0ED53600EF50CE /* 01-TabieViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCFEFD2F1C0ED53700EF50CE /* Build configuration list for PBXNativeTarget "01-TabieViewDemo" */;
+			buildPhases = (
+				CCFEFD081C0ED53600EF50CE /* Sources */,
+				CCFEFD091C0ED53600EF50CE /* Frameworks */,
+				CCFEFD0A1C0ED53600EF50CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "01-TabieViewDemo";
+			productName = "01-TabieViewDemo";
+			productReference = CCFEFD0C1C0ED53600EF50CE /* 01-TabieViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCFEFD241C0ED53700EF50CE /* 01-TabieViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCFEFD321C0ED53700EF50CE /* Build configuration list for PBXNativeTarget "01-TabieViewDemoTests" */;
+			buildPhases = (
+				CCFEFD211C0ED53700EF50CE /* Sources */,
+				CCFEFD221C0ED53700EF50CE /* Frameworks */,
+				CCFEFD231C0ED53700EF50CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCFEFD271C0ED53700EF50CE /* PBXTargetDependency */,
+			);
+			name = "01-TabieViewDemoTests";
+			productName = "01-TabieViewDemoTests";
+			productReference = CCFEFD251C0ED53700EF50CE /* 01-TabieViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCFEFD041C0ED53600EF50CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "阿六";
+				TargetAttributes = {
+					CCFEFD0B1C0ED53600EF50CE = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					CCFEFD241C0ED53700EF50CE = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = CCFEFD0B1C0ED53600EF50CE;
+					};
+				};
+			};
+			buildConfigurationList = CCFEFD071C0ED53600EF50CE /* Build configuration list for PBXProject "01-TabieViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCFEFD031C0ED53600EF50CE;
+			productRefGroup = CCFEFD0D1C0ED53600EF50CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCFEFD0B1C0ED53600EF50CE /* 01-TabieViewDemo */,
+				CCFEFD241C0ED53700EF50CE /* 01-TabieViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCFEFD0A1C0ED53600EF50CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCFEFD1B1C0ED53600EF50CE /* Main.storyboard in Resources */,
+				CCFEFD201C0ED53600EF50CE /* LaunchScreen.xib in Resources */,
+				CCFEFD1D1C0ED53600EF50CE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFEFD231C0ED53700EF50CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCFEFD081C0ED53600EF50CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCFEFD181C0ED53600EF50CE /* ViewController.m in Sources */,
+				CCFEFD151C0ED53600EF50CE /* AppDelegate.m in Sources */,
+				CCFEFD121C0ED53600EF50CE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFEFD211C0ED53700EF50CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCFEFD2C1C0ED53700EF50CE /* _1_TabieViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCFEFD271C0ED53700EF50CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCFEFD0B1C0ED53600EF50CE /* 01-TabieViewDemo */;
+			targetProxy = CCFEFD261C0ED53700EF50CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCFEFD191C0ED53600EF50CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCFEFD1A1C0ED53600EF50CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCFEFD1E1C0ED53600EF50CE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCFEFD1F1C0ED53600EF50CE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCFEFD2D1C0ED53700EF50CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCFEFD2E1C0ED53700EF50CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCFEFD301C0ED53700EF50CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "01-TabieViewDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCFEFD311C0ED53700EF50CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "01-TabieViewDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CCFEFD331C0ED53700EF50CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "01-TabieViewDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/01-TabieViewDemo.app/01-TabieViewDemo";
+			};
+			name = Debug;
+		};
+		CCFEFD341C0ED53700EF50CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "01-TabieViewDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/01-TabieViewDemo.app/01-TabieViewDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCFEFD071C0ED53600EF50CE /* Build configuration list for PBXProject "01-TabieViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCFEFD2D1C0ED53700EF50CE /* Debug */,
+				CCFEFD2E1C0ED53700EF50CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCFEFD2F1C0ED53700EF50CE /* Build configuration list for PBXNativeTarget "01-TabieViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCFEFD301C0ED53700EF50CE /* Debug */,
+				CCFEFD311C0ED53700EF50CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCFEFD321C0ED53700EF50CE /* Build configuration list for PBXNativeTarget "01-TabieViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCFEFD331C0ED53700EF50CE /* Debug */,
+				CCFEFD341C0ED53700EF50CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCFEFD041C0ED53600EF50CE /* Project object */;
+}
